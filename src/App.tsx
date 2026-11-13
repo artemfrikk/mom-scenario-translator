@@ -7,9 +7,11 @@ export default function App() {
     <div className="app">
       <header className="topbar">
         <div className="brand">
-          Особняки безумия <small>переводчик сценариев</small>
+          <span className="brand-mark">✶</span>
+          Особняки безумия
         </div>
-        <div className="title" />
+        <span className="topbar-rule" />
+        <span className="topbar-label">Переводчик сценариев Valkyrie</span>
       </header>
       <main className="workspace">
         <TranslatorPage />
